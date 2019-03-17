@@ -1,8 +1,11 @@
 <template>
-  <div id="app">
+  <!-- <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
-  </div>
+  </div> -->
+  <v-app id="app">
+    <router-view/>
+  </v-app>
 </template>
 
 <script>
@@ -12,6 +15,7 @@ export default {
 </script>
 
 <style>
+@import 'vuetify/dist/vuetify.min.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
